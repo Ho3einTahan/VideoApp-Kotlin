@@ -18,7 +18,7 @@ class VideoAdapter : AdapterRecyclerView<Video>(R.layout.item_video, 0, 0, 0) {
         val imageView: ImageView = viewHolder.itemView.findViewById<ImageView>(R.id.imgVideo)
         val txtTitle: TextView = viewHolder.itemView.findViewById<TextView>(R.id.txtTitle)
         val title=element!!.title
-        val url: String? = element.smaPoster;
+        val url: String? = element.smallPoster;
 
         txtTitle.text= title
         Glide.with(context).load(url).into(imageView);
