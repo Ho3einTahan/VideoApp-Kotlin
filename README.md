@@ -1,14 +1,14 @@
-### An Application to show poster and title of video from aparat.com
+### An Application to Show Poster and Title of Videos from Aparat.com
 
-#### you can run following command :
+#### You can run the following command:
 
-### api url
+### API URL:
 
 ``` bash
 https://www.aparat.com/etc/api/mostviewedvideos
 ```
 
-### import dependencies in your `build.gradle.kts`
+### import dependencies in your `build.gradle.kts`:
 
 ``` bash
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
@@ -18,7 +18,6 @@ https://www.aparat.com/etc/api/mostviewedvideos
     implementation("androidx.recyclerview:recyclerview:+")
     implementation("io.github.farshidroohi:customAdapterRecycleView:2.1.4")
 ```
-#### thanks for watching this project .
 
 ## Thanks For Watching
 ##### © 2025, All rights reserved. Developed by Ho3ein Tahan
